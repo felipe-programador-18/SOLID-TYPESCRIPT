@@ -1,14 +1,14 @@
-import {Notafiscal} from './thought'
+import  {Notafiscal} from './thought'
 
 //Guidance about SRP (SINGLE RESPONSIBILITY PRINCIPLE)
-class Libraries {
+ export class Libraries {
     constructor(nomebook:string){
      this.nomebook = nomebook
     }
     nomebook: string;
 }
 
-class Pricebook implements Notafiscal {
+ export class Pricebook implements Notafiscal {
     valuebook:number;
     namebook: string;
     
@@ -18,7 +18,7 @@ class Pricebook implements Notafiscal {
     pricebook: number;
 }
 
-class Finnaly implements Notafiscal {
+ export class Finnaly implements Notafiscal {
     valuebook:number;
     namebook: string;
 
@@ -28,8 +28,8 @@ class Finnaly implements Notafiscal {
     bookone:number;
 }
 //get interface and adding values of book
-let fun1: Libraries = new Libraries('Learning Mysql')
-let prec: Pricebook = new Pricebook(99.90)
+let nomebook: Libraries = new Libraries('Learning Mysql')
+let pricebook :Pricebook = new Pricebook(99.90)
 let finasale: Finnaly = new Finnaly(99.90)
 
 
