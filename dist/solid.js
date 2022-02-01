@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
 exports.Finnaly = exports.Pricebook = exports.Libraries = void 0;
-//Guidance about SRP (SINGLE RESPONSIBILITY PRINCIPLE)
+//Guidance about SRP (SINGLE RESPONSIBILITY PRINCIPlES) 
 var Libraries = /** @class */ (function () {
     function Libraries(nomebook) {
         this.nomebook = nomebook;

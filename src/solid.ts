@@ -1,14 +1,14 @@
 import  {Notafiscal} from './thought'
 
-//Guidance about SRP (SINGLE RESPONSIBILITY PRINCIPLE)
- export class Libraries {
+//Guidance about SRP (SINGLE RESPONSIBILITY PRINCIPlES) 
+export class Libraries {
     constructor(nomebook:string){
      this.nomebook = nomebook
     }
     nomebook: string;
 }
 
- export class Pricebook implements Notafiscal {
+export class Pricebook implements Notafiscal {
     valuebook:number;
     namebook: string;
     
@@ -18,7 +18,8 @@ import  {Notafiscal} from './thought'
     pricebook: number;
 }
 
- export class Finnaly implements Notafiscal {
+
+export class Finnaly implements Notafiscal {
     valuebook:number;
     namebook: string;
 
